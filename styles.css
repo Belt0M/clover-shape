@@ -1,0 +1,63 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.container {
+	width: 500px;
+	height: 320px;
+	padding: 1rem;
+	transform: rotate(25deg);
+}
+.drop {
+	display: inline-block;
+	background: rgb(17, 121, 27);
+	width: 100.5px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	color: #0f0;
+	margin: 1rem;
+}
+.drop:before {
+	content: '';
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	border: 45px solid transparent;
+	border-top: 75px solid rgb(17, 121, 27);
+	border-top-right-radius: 0.3rem;
+	border-top-left-radius: 0.3rem;
+	transform: translateX(-50%);
+}
+
+.drop:first-child {
+	transform: rotate(-61.5deg) scale(1.15) translateX(8%) translateY(32%);
+}
+
+.drop:nth-child(2) {
+	transform: rotate(0deg) scale(1.15) translateY(-50%) translateX(3%);
+	background-color: #3d6e32;
+}
+
+.drop:nth-child(2)::before {
+	border-top: 77px solid #3d6e32;
+}
+
+.drop:nth-child(3) {
+	transform: rotate(60deg) scale(1.15) translateX(-8%) translateY(23%);
+}
+
+.drop:nth-child(4) {
+	transform: rotate(236deg) scale(1.15) translateX(-18%) translateY(32%);
+}
+
+.drop:nth-child(5) {
+	transform: rotate(174deg) scale(1.15) translateX(-9%) translateY(-45%);
+}
+
+.drop:nth-child(6) {
+	transform: rotate(112deg) scale(1.15) translateX(-13%) translateY(28%);
+}
