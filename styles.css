@@ -27,18 +27,18 @@ body {
 	top: 73%;
 	left: 50%;
 	border: 45px solid transparent;
-	border-top: 75px solid rgb(17, 121, 27);
+	border-top: 78px solid rgb(17, 121, 27);
 	border-top-right-radius: 0.3rem;
 	border-top-left-radius: 0.3rem;
 	transform: translateX(-50%);
 }
 
 .drop:first-child {
-	transform: rotate(-61.5deg) scale(1.15) translateX(8%) translateY(32%);
+	transform: rotate(-60deg) scale(1.12) translateX(8%) translateY(32%);
 }
 
 .drop:nth-child(2) {
-	transform: rotate(0deg) scale(1.15) translateY(-50%) translateX(3%);
+	transform: rotate(0deg) scale(1.12) translateY(-45%) translateX(3%);
 	background-color: #3d6e32;
 }
 
@@ -47,17 +47,17 @@ body {
 }
 
 .drop:nth-child(3) {
-	transform: rotate(60deg) scale(1.15) translateX(-8%) translateY(23%);
+	transform: rotate(60deg) scale(1.12) translateX(-5%) translateY(25%);
 }
 
 .drop:nth-child(4) {
-	transform: rotate(236deg) scale(1.15) translateX(-18%) translateY(32%);
+	transform: rotate(240deg) scale(1.12) translateX(-13%) translateY(30%);
 }
 
 .drop:nth-child(5) {
-	transform: rotate(174deg) scale(1.15) translateX(-9%) translateY(-45%);
+	transform: rotate(180deg) scale(1.12) translateX(-4%) translateY(-50%);
 }
 
 .drop:nth-child(6) {
-	transform: rotate(112deg) scale(1.15) translateX(-13%) translateY(28%);
+	transform: rotate(120deg) scale(1.12) translateX(8%) translateY(23%);
 }
